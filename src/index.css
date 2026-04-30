@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-slate-100 via-blue-50 to-indigo-100;
+  font-family: "Inter", sans-serif;
+}
+
+/* subtle card glass effect */
+.card {
+  @apply bg-white/80 backdrop-blur-md rounded-xl shadow-lg;
+}
